@@ -1,0 +1,142 @@
+html
+{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+#container
+{
+    background-color: #9DD2EA;
+    height: 700px;
+    width: 1050px;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    padding: 20px;
+    position: relative;
+}
+#score
+{
+    background-color: #F1FF92;
+    padding: 15px;
+    color: #888E5F;
+    font-size: 20px;
+    position: absolute;
+    left: 950px;
+    box-shadow: 0px 4px 0px 0px #9da853;
+}
+#correct
+{
+    position: absolute;
+    top:10px;
+    left: 360px;
+    background-color: rgb(4, 201, 4);
+    color: white;
+    font-size: 20px;
+    padding: 15px;   
+    display: none;
+}
+#wrong
+{
+    position: absolute;
+    left: 360px;
+    top:10px;
+    background-color: rgb(228, 6, 6);
+    color: white;
+    font-size: 20px;
+    padding: 15px;   
+    display: none;
+}
+#fruitContainer
+{
+    height: 500px;
+    width: 800px;
+    background-color: #fff;
+    margin: 50px auto 10px auto;
+    font-family: cursive, sans-serif;
+    font-size: 150px;
+    text-align: center;
+    box-shadow: 0px 4px #535aa8;
+    position: relative;
+    overflow: hidden;
+}
+#instruction
+{
+    height: 50px;
+    width: 500px;
+    background-color: #B481D9;
+    font-size: 19px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0px 4px #8153a8;
+    line-height: 3rem;
+    font-family: cursive,sans-serif;
+}
+
+#startbtn
+{
+    position: absolute;
+    left: 450px;
+    margin: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+#startbtn a
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: cursive, sans-serif;
+    transition: .5s;
+    box-shadow: 0px 4px rgb(78, 63, 63);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#startbtn a:hover
+{
+    background-color: rgb(85, 185, 231);
+    color: white;
+}
+#startbtn a:active
+{
+    box-shadow: 0px 0px #43b1e4;
+    top: 4px;
+}
+#trialsleft
+{
+    background-color: #F1FF92;
+    position: absolute;
+    width: 80px;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 5px;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    display: none;
+}
+#gameover
+{
+    position: absolute;
+    top: 180px;
+    left: 240px;
+    background-image: linear-gradient(rgb(243, 243, 79),rgb(236, 59, 59));
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+    display: none;
+}
+.life
+{
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+}
+.fruit
+{
+    display: none;
+    position: absolute;
+}
